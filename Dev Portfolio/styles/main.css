@@ -1,0 +1,461 @@
+/*---------Fonts-----------*/
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 6px 7px black;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Alegreya Sans SC', cursive;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 5px 4px 5px black;
+}
+
+p{
+  font-family: 'Alegreya Sans SC', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 2px 5px black;
+  
+}
+
+
+/*------------Footer---------*/
+.main-footer{  
+  margin-top: auto;
+  background-color: black;
+  padding-bottom: 10px;
+  border-top: 2px solid white;
+}
+
+
+
+/*-------------Pseudo---------=----*/
+
+.menu a:hover {
+  background-color: dimgray;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: deepskyblue;
+}
+
+a:active {
+  color: darkblue;
+}
+
+
+/*---------------Landing--------------*/
+
+body {
+  background-color: #404b4f;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  background: linear-gradient(#404b4f, transparent 100%),
+              linear-gradient(0deg, #404b4f, transparent 0),
+    url(../images/city-cars-traffic-lights.jpeg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-text {
+  padding: 10%;
+}
+
+
+.see-more{
+  font-weight: bold;
+  padding-top: 100px;
+  font-size: 30px;
+  margin: auto;
+}
+
+
+.secondary_content {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.home_text {
+  font-size: 40px;
+  font-weight: 100;
+  margin: 50px 0 40px;
+}
+
+.border-line {
+  width: 70%;
+  margin: auto;
+  height: 1px;
+  background-color: rgb(238, 235, 235);
+}
+/*------------Projects-----------*/
+
+.project_text {
+    font-family: 'Alegreya Sans SC', cursive;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+.project1 {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.project2 {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.tahoe {
+    width: 100%;
+}
+
+.portfolio {
+    width: 100%;
+}
+
+
+
+.project-body {
+  margin: 0 auto;
+  background: linear-gradient(#404b4f, transparent 10%),
+              linear-gradient(0deg, #404b4f, transparent),
+    url(../images/modern.png) no-repeat center;
+  background-size: cover
+}
+
+figcaption {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*------------ Nav -------------*/
+
+#nav_menu ul {
+    display: flex;
+    list-style:none;
+    flex-direction:row;
+    justify-content: center;
+    flex-basis: 100%;
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li {
+    flex-basis: 30%;
+}
+#nav_menu ul li a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: yellow;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+}
+#nav_menu ul ul li {
+    width: 145%;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.current {
+    color: blue !important;
+}
+
+/*------------Skills---------------*/
+
+.skills-summary {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skill-head {
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.about-text-1 {
+  width: 60%;
+  padding-bottom: 40px;
+}
+
+.about-text-2 {
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.about-text-2 li {
+  width: 90%;
+  list-style: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.about-text-3 {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+/*-----------Contact Me Page----------*/
+
+.contact-body {
+  margin: 0 auto;
+  background: linear-gradient(#404b4f, transparent 20%),
+              linear-gradient(0deg, #404b4f, transparent),
+    url(../images/work-731198_960_720.jpg) no-repeat center;
+  background-size: cover
+}
+
+.contact-main {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.contact-info {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.paragraph {
+  flex-basis: 90%;
+  background-color: rgba(0,0,0, .50);
+  border-radius: 2%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.phone {
+  margin: 0 auto 10px;
+  width: 350px;
+  padding: 10px;
+  display: inline-flex;
+  border-radius: 3%;
+  background-color: rgba(0,0,0, .50);
+}
+
+.number {
+  margin: auto;
+}
+
+.email {
+  margin:auto;
+  width: 350px;
+  padding: 10px;
+  display: inline-flex;
+  border-radius: 3%;
+  background-color: rgba(0,0,0, .50);
+  margin-bottom: 10px;
+}
+
+#phone {
+  padding: 0 5px;
+  margin: auto;
+  height: 60px;
+  width: 10%;
+}
+
+#email {
+  padding: 0 5px 0 5px;
+  margin: auto;
+  height: 60px;
+  width: 20%;
+}
+
+.my-email {
+  margin: auto;
+}
+
+#header-text {
+  font-size: 43px;
+  text-shadow: 2px 5px 5px grey;
+  
+  width: 250px;
+}
+
+dl {
+    text-align: center;
+}
+
+dt {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-size: 1.4em;
+    margin: .2em;
+}
+
+dd {
+   font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-size: 1em; 
+    margin: auto;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    
+    
+    .see-more {
+        display: none;
+    }
+    
+    .arrow {
+        display: none;
+    }
+    
+    .about-text-1 {
+        width: 100%;
+    }
+    
+    .about-text-2 {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    
+    .about-text-3 {
+        width: 100%;;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .secondary_content {
+        padding-top: 7em;
+    } 
+    
+    .project1 {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .project2 {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .Aligner {
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    
+    #arrow {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 300%;
+    }
+    
+    h2 {
+        font-size: 90%;
+    }
+    
+    .about-text-1 {
+        width: 80%;
+        margin:auto;
+    }
+    
+    .about-text-2 {
+        width: 80%;
+        margin:auto;
+    }
+    
+    .about-text-3 {
+        width: 80%;
+        margin:auto;
+    }
+    
+    .skill-head {
+        font-size: 280%;
+    }
+    
+    .my-email {
+        font-size: 100%;
+    }
+}
